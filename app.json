@@ -4,6 +4,7 @@
     "slug": "LibrarySpace",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "libraryspace",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -25,8 +26,12 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
+      "expo-router",
       "expo-asset",
       "expo-secure-store"
-    ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
